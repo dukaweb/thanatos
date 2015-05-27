@@ -1,0 +1,73 @@
+body {
+	line-height: 1.42857143;
+  	color: #333;
+  	background-color: #fff;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.thumbnail {
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.thumbnail img {
+	min-height: 240px;
+}
+
+.thumbnail .caption {
+	padding: 20px;
+}
+
+.tutorial i {
+	font-size: 10pt;
+}
+
+.tutorial h2.post-title {
+	font-size: 16px;
+}
+
+.tutorial h2.post-title a{
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #484848;
+}
+
+.latest-update h3 {
+  padding: 13px 25px;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 0;
+  background-color: #FF4081;
+}
+
+.latest-post {
+	background-color: #F9F9F9;
+  	border: 1px solid #f2f2f2;
+  	margin-bottom: 25px;
+  	overflow: hidden;
+}
+
+.latest-post a {
+	margin-right: 36px;
+  	color: #000;
+  	line-height: 36px;
+}
+
+footer {
+	background-color: #f8f8f8;
+  	padding-top: 74px;
+  	margin-top: 95px;
+}
+/*.add-sign {
+	position: absolute;
+  	bottom: 32%;
+  	left: 80%;
+}*/
