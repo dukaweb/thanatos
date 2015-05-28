@@ -4,6 +4,10 @@ body {
   	background-color: #fff;
 }
 
+a, a:hover, a:focus {
+  color: #3f51b5;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -50,21 +54,38 @@ body {
 
 .latest-post {
 	background-color: #F9F9F9;
-  	border: 1px solid #f2f2f2;
-  	margin-bottom: 25px;
-  	overflow: hidden;
+  border: 1px solid #f2f2f2;
+	margin-bottom: 25px;
+	overflow: hidden;
 }
 
 .latest-post a {
 	margin-right: 36px;
-  	color: #000;
-  	line-height: 36px;
+	color: #000;
+	line-height: 36px;
 }
-
+.section-space {
+  padding: 30px 0px;
+}
+.section-head h2 {
+	color: #222;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.blog-section img.blog-post-image {
+  max-height: 150px;
+}
+.blog-section {
+	background-color: #f7f7f7;
+	padding-bottom: 80px;
+}
+.latest_update.section-space {
+  padding-bottom: 0px;
+}
 footer {
 	background-color: #f8f8f8;
-  	padding-top: 74px;
-  	margin-top: 95px;
+	padding-top: 74px;
+	margin-top: 95px;
 }
 /*.add-sign {
 	position: absolute;
