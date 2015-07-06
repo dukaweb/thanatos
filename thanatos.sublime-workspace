@@ -5,7 +5,7 @@
 		[
 			[
 				"pad",
-				"padding-right"
+				"padding-bottom"
 			],
 			[
 				"tex",
@@ -23,22 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "custom.css",
-			"settings":
-			{
-				"buffer_size": 1260,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 30253,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -72,10 +56,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/canhtran/Desktop/duka-thanatos"
 	],
 	"file_history":
 	[
+		"/Users/canhtran/Desktop/duka-thanatos/custom.css",
+		"/Users/canhtran/Desktop/duka-thanatos/index.html",
+		"/Users/canhtran/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/canhtran/Desktop/testConnection.php",
 		"/Users/canhtran/NUS/Computational Intelligence I/WS3.R",
 		"/Users/canhtran/Documents/Python/Crawler/spiderman.py",
@@ -101,6 +87,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tutorial",
+			"Tutorial",
+			"from",
 			"Tutorial",
 			"no-padin",
 			"blog"
@@ -121,66 +110,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "custom.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								896,
-								896
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14459,
-								14459
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4755.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

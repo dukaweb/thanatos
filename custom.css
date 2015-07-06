@@ -1,95 +1,131 @@
-body {
-	line-height: 1.42857143;
-  	color: #333;
-  	background-color: #fff;
+menu, ol, ul {
+    list-style: none;
+    list-style-image: none;
+    padding:0;
 }
 
-a, a:hover, a:focus {
-  color: #3f51b5;
+time {
+    color: #aaa;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    font-size: 11px;
+    line-height: 1;
 }
 
-.no-padding {
-  padding: 0;
+.link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.no-padding-right {
-  padding-right: 0;
+.link:hover {
+    color: inherit;
 }
 
-.thumbnail {
-	padding: 0;
-	margin-bottom: 30px;
+/*.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, 
+.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, 
+.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, 
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .container  {
+    padding-left: 0;
+}*/
+
+.item .blog-post-title h3 {
+    text-transform: capitalize;
+    font-size: 20px;
 }
 
-.thumbnail img {
-	min-height: 240px;
+.item .blog-post-content {
+    font-size: 16px;
+    line-height: 25px;
+    color: #8899a6;
 }
+
 
 .thumbnail .caption {
-	padding: 20px;
+    padding: 20px;
 }
 
-.tutorial_section i {
-	font-size: 10pt;
+.header-panel {
+    margin: 40px 0 -10px 20px;
 }
 
-.tutorial_section h2.post-title {
-	font-size: 16px;
+.sidebar {
+/*    position: relative;
+    float: left;
+    background: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 3px;*/
+    padding: 20px 30px;
 }
 
-.tutorial_section h2.post-title a{
-	font-weight: 500;
-	text-transform: capitalize;
-	color: #484848;
+.sidebar-widget .sidebar-title {
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.latest-update h3 {
-  padding: 13px 25px;
-  font-size: 1em;
-  text-transform: uppercase;
-  color: #fff;
-  margin-top: 0;
-  background-color: #FF4081;
+.sidebar-widget .list-group-item {
+    padding: 0;
 }
 
-.latest-post {
-	background-color: #F9F9F9;
-  border: 1px solid #f2f2f2;
-	margin-bottom: 25px;
-	overflow: hidden;
+.sidebar-widget .list-group .list-group-item .row-action-primary i, .list-group .list-group-item .row-picture img {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 15px;
 }
 
-.latest-post a {
-	margin-right: 36px;
-	color: #000;
-	line-height: 36px;
+.list-group .list-group-item .row-content, .list-group .list-group-separator:before {
+    width: calc(100% - 56px);
+    min-height: 0;
 }
-.section-space {
-  padding: 30px 0px;
+
+.list-group .list-group-item .row-content .list-group-item-heading {
+    color: rgba(0,0,0,0.8);
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.section-head h2 {
-	color: #222;
-	font-weight: 900;
-	text-transform: uppercase;
+
+.br-bottom:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 35px;
+    border-top: 2px solid rgb(181,67,33);
+    margin: 6px 0 10px;
 }
-.blog-section img.blog-post-image {
-  max-height: 150px;
+
+.tags a:link, .tags a:visited {
+    background-color: #fff;
+    color: rgba(0,0,0,0.6);
+    border: 1px solid #eee;
+    text-decoration: none;
+    text-transform: capitalize; 
+    display: inline-block; 
+    margin: 0 3px 4px 0; 
+    padding: 7px; 
+    border-radius: 2px;
+    font-size: 13px;
+    line-height: 1em;
 }
-.blog-section {
-	background-color: #f7f7f7;
-	padding-bottom: 80px;
+
+.tags a:hover {
+    border: 1px solid #F57C00;
+    color:#F57C00;
+    background-color: #FFF3E0;
+
 }
-.latest_update.section-space {
-  padding-bottom: 80px;
+
+@media(min-width:1200px) {
+    .container-fluid {
+        padding-left: 140px;
+    }
 }
-.tutorial_section.section-space {
-  padding-bottom: 80px;
-}
-footer {
-	background-color: #f8f8f8;
-}
-/*.add-sign {
-	position: absolute;
-  	bottom: 32%;
-  	left: 80%;
-}*/
