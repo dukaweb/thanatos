@@ -7,7 +7,6 @@ menu, ol, ul {
 time {
     color: #aaa;
     display: inline-block;
-    position: relative;
     top: -10px;
     font-size: 11px;
     line-height: 1;
@@ -28,7 +27,7 @@ time {
 .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
 .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
 .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, 
-.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .container  {
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     padding-left: 0;
 }*/
 
@@ -41,11 +40,47 @@ time {
     font-size: 16px;
     line-height: 25px;
     color: #8899a6;
+    margin-top: 10px;
 }
 
+.item img {
+    max-height: 250px;
+    width: 100%;
+}
+
+.item .pull-right {
+    line-height: 7px;
+}
+
+.item span a {
+    font-size: 10px;
+    padding: 6px 7px 5px;
+    box-shadow: none;
+    opacity: 0.7;
+    background-color: #e76a4a;
+}
+
+.item time {
+    font-size: 13px;
+}
 
 .thumbnail .caption {
     padding: 20px;
+}
+
+.tagged {
+    color: #FFF !important;
+    display: inline-block;
+    line-height: 1;
+    font-size: 11px;
+    background-color: #CCC;
+    margin-right: 6px;
+    font-weight: bold;
+    text-decoration: none !important;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
 .header-panel {
@@ -94,6 +129,10 @@ time {
     text-overflow: ellipsis;
 }
 
+.list-group .list-group-item .row-content time {
+    position: relative;
+}
+
 .br-bottom:after {
     content: "";
     display: block;
@@ -124,8 +163,22 @@ time {
 
 }
 
+#footer.subsection {
+    padding-top: 2rem;
+    padding-bottom: 0.9rem;
+}
+
+.subsection {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+
 @media(min-width:1200px) {
     .container-fluid {
         padding-left: 140px;
     }
+
+/*    .navbar-container {
+        padding-left: 110px;
+    }*/
 }
